@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T15:43:55.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="jp-v9LHfT6VvFeNdEoZ5" version="15.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-22T15:44:59.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="3S0SjNK1D5r1Ojvyc3TV" version="15.8.3" type="github" pages="2">
   <diagram id="1CtBD1NfeySFHqps1d7a" name=" conceptual model">
     <mxGraphModel dx="868" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,7 +198,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wuW9CxF9y5MbO_lCoYKC-1" value="Message" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;" parent="oJCSZsSPNsd4opIi_z5D-1" vertex="1">
-          <mxGeometry x="540" y="-890" width="160" height="150" as="geometry" />
+          <mxGeometry x="570" y="-870" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="wuW9CxF9y5MbO_lCoYKC-2" value="type (enum)&#xa;body (string)&#xa;readed (bool)&#xa;sendTime (dateTime)&#xa;isFromMe (bool)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" parent="wuW9CxF9y5MbO_lCoYKC-1" vertex="1">
           <mxGeometry y="30" width="160" height="120" as="geometry" />
@@ -396,7 +396,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="54-7GYDkhkA4QGFH5Vja-64" value="Payment Data" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;sketch=0;rounded=1;" parent="oJCSZsSPNsd4opIi_z5D-1" vertex="1">
-          <mxGeometry x="310" y="-660" width="160" height="100" as="geometry" />
+          <mxGeometry x="280" y="-660" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="54-7GYDkhkA4QGFH5Vja-65" value="digits (string)&#xa;exMonth (string)&#xa;exYear (string)&#xa;holder (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;sketch=0;rounded=1;" parent="54-7GYDkhkA4QGFH5Vja-64" vertex="1">
           <mxGeometry y="30" width="160" height="70" as="geometry" />
@@ -546,7 +546,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-15" value="Order Items" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;" parent="oJCSZsSPNsd4opIi_z5D-1" vertex="1">
-          <mxGeometry x="270" y="-810" width="160" height="120" as="geometry" />
+          <mxGeometry x="370" y="-790" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-16" value="productId (number)&#xa;productCount (number)&#xa;productName (string)&#xa;productPrice (float)&#xa;productDiscount (number)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" parent="y2Da1GwsdGxIQQ0L9hlV-15" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
@@ -558,7 +558,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-18" value="Order Item Extras" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;" parent="oJCSZsSPNsd4opIi_z5D-1" vertex="1">
-          <mxGeometry x="50" y="-820" width="160" height="120" as="geometry" />
+          <mxGeometry x="150" y="-890" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-19" value="extraId (number)&#xa;extraName (string)&#xa;extraPrice (float)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" parent="y2Da1GwsdGxIQQ0L9hlV-18" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
@@ -570,7 +570,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-22" value="Online Payment type" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;" parent="oJCSZsSPNsd4opIi_z5D-1" vertex="1">
-          <mxGeometry x="90" y="-680" width="160" height="70" as="geometry" />
+          <mxGeometry x="60" y="-710" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-23" value="type (string)&#xa;brandLogo (image)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" parent="y2Da1GwsdGxIQQ0L9hlV-22" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
@@ -582,7 +582,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-25" value="Message Attachment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;" parent="oJCSZsSPNsd4opIi_z5D-1" vertex="1">
-          <mxGeometry x="320" y="-890" width="160" height="70" as="geometry" />
+          <mxGeometry x="350" y="-890" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="y2Da1GwsdGxIQQ0L9hlV-26" value="attachType (enum)&#xa;filePath (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" parent="y2Da1GwsdGxIQQ0L9hlV-25" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
